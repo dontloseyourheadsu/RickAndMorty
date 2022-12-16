@@ -1,0 +1,9 @@
+.portal-gun-button {
+    cursor: pointer;
+    height: 50px;
+    width: 140px;
+    background-color: #000000;
+    color: #9A2525;
+    border: 4px solid #BBBEC1;
+    font-family: 'Digital Numbers', sans-serif;
+}

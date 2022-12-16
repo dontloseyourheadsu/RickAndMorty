@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\obj\\Debug\\net7.0\\build-gz\\TVb2RGxk.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\obj\\Debug\\net7.0\\scopedcss\\bundle\\WebAppRickAndMorty.styles.css",
+      "PackagePath": "staticwebassets\\WebAppRickAndMorty.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\green-portal.gif",
+      "PackagePath": "staticwebassets\\images\\green-portal.gif"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\intelligence-helmet.svg",
+      "PackagePath": "staticwebassets\\images\\intelligence-helmet.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\main-page-morty.svg",
+      "PackagePath": "staticwebassets\\images\\main-page-morty.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\main-page-rick.svg",
+      "PackagePath": "staticwebassets\\images\\main-page-rick.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\mr-meeseeks-box.svg",
+      "PackagePath": "staticwebassets\\images\\mr-meeseeks-box.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\plumbus.svg",
+      "PackagePath": "staticwebassets\\images\\plumbus.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\portal-gun.svg",
+      "PackagePath": "staticwebassets\\images\\portal-gun.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\rick-and-morty-logo.gif",
+      "PackagePath": "staticwebassets\\images\\rick-and-morty-logo.gif"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\space-background.svg",
+      "PackagePath": "staticwebassets\\images\\space-background.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\ufo.svg",
+      "PackagePath": "staticwebassets\\images\\ufo.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebAppRickAndMorty.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebAppRickAndMorty.props",
+      "PackagePath": "build\\WebAppRickAndMorty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAppRickAndMorty.props",
+      "PackagePath": "buildMultiTargeting\\WebAppRickAndMorty.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebAppRickAndMorty.props",
+      "PackagePath": "buildTransitive\\WebAppRickAndMorty.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

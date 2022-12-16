@@ -1,0 +1,16 @@
+/* /Pages/Index.razor.rz.scp.css */
+.portal[b-iz57bk0m9g], .title[b-iz57bk0m9g] {
+    height: 100%;
+    width: 50%;
+    padding: 0 5px;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+/* /Shared/PortalGunButton.razor.rz.scp.css */
+.portal-gun-button[b-73ll3hhves] {
+    height: 50px;
+    width: 140px;
+    background-color: #000000;
+    color: #9A2525;
+    border: 4px solid #BBBEC1;
+    font-family: 'Digital Numbers', sans-serif;
+}
