@@ -15,6 +15,13 @@
     width: auto;
 }
 
+.morty[b-iz57bk0m9g] {
+    height: 150px;
+    width: auto;
+    top: 17em;
+    left: 20em;
+}
+
 .helmet[b-iz57bk0m9g] {
     height: 75px;
     width: auto;
@@ -37,13 +44,6 @@
     top: 10em;
     left: 20em;
     transform: rotate(30deg);
-}
-
-.morty[b-iz57bk0m9g] {
-    height: 150px;
-    width: auto;
-    top: 17em;
-    left: 20em;
 }
 
 @keyframes ufo-move-b-iz57bk0m9g {

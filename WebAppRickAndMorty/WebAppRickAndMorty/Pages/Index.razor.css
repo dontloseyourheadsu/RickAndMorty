@@ -15,6 +15,13 @@
     width: auto;
 }
 
+.morty {
+    height: 150px;
+    width: auto;
+    top: 17em;
+    left: 20em;
+}
+
 .helmet {
     height: 75px;
     width: auto;
@@ -37,13 +44,6 @@
     top: 10em;
     left: 20em;
     transform: rotate(30deg);
-}
-
-.morty {
-    height: 150px;
-    width: auto;
-    top: 17em;
-    left: 20em;
 }
 
 @keyframes ufo-move {
