@@ -1,12 +1,12 @@
 ﻿@page "/"
-@using System.Security.Cryptography
+@using System.Security.Cryptography.X509Certificates
 
 <PageTitle>Index</PageTitle>
 
 <div class="overflow-hidden space-background main-page d-flex justify-space-around" @onmousemove="@GetMousePosition">
     <div class="portal-section position-relative">
         <img class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
-        <img style="@($"left: {rickX.ToString()}px; ")" class="position-absolute rick" src="images/portal-gun-rick.svg" alt="drunk rick"/>
+        <img style="@($"left: {ToStringDot(rickX)}em; top: {ToStringDot(rickY)}em; ")" class="position-absolute rick" src="images/portal-gun-rick.svg" alt="drunk rick"/>
         <img class="position-absolute morty" src="images/main-page-morty.svg" alt="scared morty"/>
         <img class="position-absolute helmet" src="images/intelligence-helmet.svg" alt="intelligence helmet"/>
         <img class="position-absolute plumbus" src="images/plumbus.svg" alt="plumbus"/>
@@ -16,7 +16,7 @@
         <img src="images/ufo.svg" alt="ufo" class="position-absolute ufo"/>
         <img src="images/rick-and-morty-logo.gif" alt="rick and morty logo" class="logo"/>
         <PortalGunButton Text="C-137"/>
-        <p style="color: white">@mouseX.ToString() @mouseY.ToString()</p>
+        <p style="color: white">@mouseX.ToString() @mouseY.ToString() @($"left: {ToStringDot(rickX)}em; top: {ToStringDot(rickY)}")</p>
     </div>
 </div>
 
@@ -24,7 +24,8 @@
 {
     private double mouseX;
     private double mouseY;
-    private float rickX = -50f;
+    private float rickX = -5f;
+    private float rickY = 7f;
     
     private void GetMousePosition(MouseEventArgs e)
     {
@@ -35,5 +36,12 @@
     
     private void MoveElements()
     {
+        rickX = -5 + (float)mouseX / 1000;
+        rickY = 7 + (float)mouseY / 1000;
+    }
+
+    private string ToStringDot(float objectXorY)
+    {
+        return objectXorY.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture);
     }
 }

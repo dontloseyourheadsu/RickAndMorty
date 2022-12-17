@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\LICENSE.svg",
-      "PackagePath": "staticwebassets\\images\\LICENSE.svg"
-    },
-    {
       "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\green-portal.gif",
       "PackagePath": "staticwebassets\\images\\green-portal.gif"
     },

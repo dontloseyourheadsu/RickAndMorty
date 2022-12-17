@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "26Fc+CmN2+nvJ4369fUckfLSbZiAb7tKpiKpdyaTmLY=",
+  "Hash": "nM2fe68XZ7vzqaDjmFzqYh4v+c7uZeh6l5s4/vdk6H0=",
   "Source": "WebAppRickAndMorty",
   "BasePath": "/",
   "Mode": "Root",
@@ -6968,23 +6968,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\intelligence-helmet.svg"
-    },
-    {
-      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\LICENSE.svg",
-      "SourceId": "WebAppRickAndMorty",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "images/LICENSE.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\LICENSE.svg"
     },
     {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\main-page-morty.svg",
