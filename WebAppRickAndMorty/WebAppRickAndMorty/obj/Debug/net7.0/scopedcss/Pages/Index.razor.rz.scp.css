@@ -1,5 +1,84 @@
-.portal[b-iz57bk0m9g], .title[b-iz57bk0m9g] {
+.portal-section[b-iz57bk0m9g], .title[b-iz57bk0m9g] {
     height: 100%;
     width: 50%;
     padding: 0 5px;
+}
+
+.portal[b-iz57bk0m9g] {
+    height: 500px;
+    width: auto;
+    margin: auto auto;
+}
+
+.rick[b-iz57bk0m9g] {
+    height: 450px;
+    width: auto;
+    top: 7em;
+}
+
+.helmet[b-iz57bk0m9g] {
+    height: 75px;
+    width: auto;
+    top: 12em;
+    left: 10em;
+    transform: rotate(-45deg);
+}
+
+.plumbus[b-iz57bk0m9g] {
+    height: 60px;
+    width: auto;
+    top: 17em;
+    left: 16em;
+    transform: rotate(115deg);
+}
+
+.box[b-iz57bk0m9g] {
+    height: 80px;
+    width: auto;
+    top: 10em;
+    left: 20em;
+    transform: rotate(30deg);
+}
+
+.morty[b-iz57bk0m9g] {
+    height: 150px;
+    width: auto;
+    top: 17em;
+    left: 20em;
+}
+
+@keyframes ufo-move-b-iz57bk0m9g {
+    0% {
+        left: 4em;
+        top: -20em;
+        transform: rotate(0deg);
+    }
+    20% {
+        left: 4em;
+        top: 2em;
+        transform: rotate(0deg);
+    }
+    40% {
+        left: 4em;
+        top: 2em;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 150em;
+        top: 2em;
+        transform: rotate(-45deg);
+    }
+}
+
+.ufo[b-iz57bk0m9g] {
+    height: 110px;
+    width: auto;/*
+    top: 2em;
+    left: 4em;
+    transform: rotate(-30deg);*/
+    animation: ufo-move-b-iz57bk0m9g 6s ease-in-out infinite;
+}
+
+.logo[b-iz57bk0m9g] {
+    margin: 0 0 3em 0;
 }

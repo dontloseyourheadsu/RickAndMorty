@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B/A3byv8txU5o2hCcWxviLk/qZpsE/Bsdy7tJ6l2W0s=",
+  "Hash": "26Fc+CmN2+nvJ4369fUckfLSbZiAb7tKpiKpdyaTmLY=",
   "Source": "WebAppRickAndMorty",
   "BasePath": "/",
   "Mode": "Root",
@@ -6970,6 +6970,23 @@
       "OriginalItemSpec": "wwwroot\\images\\intelligence-helmet.svg"
     },
     {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\LICENSE.svg",
+      "SourceId": "WebAppRickAndMorty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/LICENSE.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\LICENSE.svg"
+    },
+    {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\main-page-morty.svg",
       "SourceId": "WebAppRickAndMorty",
       "SourceType": "Discovered",
@@ -7036,6 +7053,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\plumbus.svg"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\portal-gun-rick.svg",
+      "SourceId": "WebAppRickAndMorty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/portal-gun-rick.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\portal-gun-rick.svg"
     },
     {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\portal-gun.svg",

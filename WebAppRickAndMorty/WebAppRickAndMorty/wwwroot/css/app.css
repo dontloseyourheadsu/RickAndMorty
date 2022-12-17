@@ -64,6 +64,27 @@ h1:focus {
     display: flex;
 }
 
+.d-none {
+    display: none;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/*ALIGNMENTS*/
 .justify-space-around {
     justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
 }

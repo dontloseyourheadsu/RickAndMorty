@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\LICENSE.svg",
+      "PackagePath": "staticwebassets\\images\\LICENSE.svg"
+    },
+    {
       "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\green-portal.gif",
       "PackagePath": "staticwebassets\\images\\green-portal.gif"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\plumbus.svg",
       "PackagePath": "staticwebassets\\images\\plumbus.svg"
+    },
+    {
+      "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\portal-gun-rick.svg",
+      "PackagePath": "staticwebassets\\images\\portal-gun-rick.svg"
     },
     {
       "Id": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\portal-gun.svg",

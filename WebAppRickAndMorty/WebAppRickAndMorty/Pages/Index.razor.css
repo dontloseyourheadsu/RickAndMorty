@@ -1,5 +1,85 @@
-.portal, .title {
+.portal-section, .title {
     height: 100%;
     width: 50%;
     padding: 0 5px;
+}
+
+.portal {
+    height: 500px;
+    width: auto;
+    margin: auto auto;
+}
+
+.rick {
+    height: 450px;
+    width: auto;
+    top: 7em;
+    /*left: -5em;*/
+}
+
+.helmet {
+    height: 75px;
+    width: auto;
+    top: 12em;
+    left: 10em;
+    transform: rotate(-45deg);
+}
+
+.plumbus {
+    height: 60px;
+    width: auto;
+    top: 17em;
+    left: 16em;
+    transform: rotate(115deg);
+}
+
+.box {
+    height: 80px;
+    width: auto;
+    top: 10em;
+    left: 20em;
+    transform: rotate(30deg);
+}
+
+.morty {
+    height: 150px;
+    width: auto;
+    top: 17em;
+    left: 20em;
+}
+
+@keyframes ufo-move {
+    0% {
+        left: 4em;
+        top: -20em;
+        transform: rotate(0deg);
+    }
+    20% {
+        left: 4em;
+        top: 2em;
+        transform: rotate(0deg);
+    }
+    40% {
+        left: 4em;
+        top: 2em;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 150em;
+        top: 2em;
+        transform: rotate(-45deg);
+    }
+}
+
+.ufo {
+    height: 110px;
+    width: auto;/*
+    top: 2em;
+    left: 4em;
+    transform: rotate(-30deg);*/
+    animation: ufo-move 6s ease-in-out infinite;
+}
+
+.logo {
+    margin: 0 0 3em 0;
 }
