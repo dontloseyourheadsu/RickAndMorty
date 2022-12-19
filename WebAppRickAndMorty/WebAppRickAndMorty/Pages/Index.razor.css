@@ -7,7 +7,6 @@
 .portal {
     height: 500px;
     width: auto;
-    margin: auto auto;
 }
 
 .rick {
@@ -18,31 +17,23 @@
 .morty {
     height: 150px;
     width: auto;
-    top: 17em;
-    left: 20em;
 }
 
 .helmet {
     height: 75px;
     width: auto;
-    top: 12em;
-    left: 10em;
     transform: rotate(-45deg);
 }
 
 .plumbus {
     height: 60px;
     width: auto;
-    top: 17em;
-    left: 16em;
     transform: rotate(115deg);
 }
 
 .box {
     height: 80px;
     width: auto;
-    top: 10em;
-    left: 20em;
     transform: rotate(30deg);
 }
 
@@ -71,10 +62,7 @@
 
 .ufo {
     height: 110px;
-    width: auto;/*
-    top: 2em;
-    left: 4em;
-    transform: rotate(-30deg);*/
+    width: auto;
     animation: ufo-move 6s ease-in-out infinite;
 }
 

@@ -8,7 +8,6 @@
 .portal[b-iz57bk0m9g] {
     height: 500px;
     width: auto;
-    margin: auto auto;
 }
 
 .rick[b-iz57bk0m9g] {
@@ -19,31 +18,23 @@
 .morty[b-iz57bk0m9g] {
     height: 150px;
     width: auto;
-    top: 17em;
-    left: 20em;
 }
 
 .helmet[b-iz57bk0m9g] {
     height: 75px;
     width: auto;
-    top: 12em;
-    left: 10em;
     transform: rotate(-45deg);
 }
 
 .plumbus[b-iz57bk0m9g] {
     height: 60px;
     width: auto;
-    top: 17em;
-    left: 16em;
     transform: rotate(115deg);
 }
 
 .box[b-iz57bk0m9g] {
     height: 80px;
     width: auto;
-    top: 10em;
-    left: 20em;
     transform: rotate(30deg);
 }
 
@@ -72,10 +63,7 @@
 
 .ufo[b-iz57bk0m9g] {
     height: 110px;
-    width: auto;/*
-    top: 2em;
-    left: 4em;
-    transform: rotate(-30deg);*/
+    width: auto;
     animation: ufo-move-b-iz57bk0m9g 6s ease-in-out infinite;
 }
 

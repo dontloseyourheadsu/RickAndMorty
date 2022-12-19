@@ -5,7 +5,7 @@
 
 <div class="overflow-hidden space-background main-page d-flex justify-space-around" @onmousemove="@GetMousePosition">
     <div class="portal-section position-relative">
-        <img class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
+        <img style="@($"top: {ToStringDot(portalY)}em; left: {ToStringDot(portalX)}em")" class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[0])}em; top: {ToStringDot(objectsYOffset[0])}em; ")" class="position-absolute rick" src="images/portal-gun-rick.svg" alt="drunk rick"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[1])}em; top: {ToStringDot(objectsYOffset[1])}em; ")" class="position-absolute morty" src="images/main-page-morty.svg" alt="scared morty"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[2])}em; top: {ToStringDot(objectsYOffset[2])}em; ")" class="position-absolute helmet" src="images/intelligence-helmet.svg" alt="intelligence helmet"/>
@@ -26,6 +26,7 @@
     private double mouseY;
     private float[] objectsXOffset, objectsYOffset, 
     objectsXPosition, objectsYPosition;
+    private float portalX, portalY;
 
     public Index()
     {
@@ -43,6 +44,8 @@
         {
             7, 17, 12, 17, 10
         };
+        portalX = 10;
+        portalY = 10;
     }
 
     private void GetMousePosition(MouseEventArgs e)
@@ -54,11 +57,15 @@
     
     private void MoveElements()
     {
+        portalX = (float)((mouseX) / 800) - 1;
+        portalY = (float)((mouseY) / 800) - 1;
         for(var i = 0; i < objectsXOffset.Length; i++)
         {
-            objectsXOffset[i] = (float)(mouseX) / 1000 + objectsXPosition[i];
-            objectsYOffset[i] = (float)(mouseY) / 1000 + objectsYPosition[i];
+            objectsXOffset[i] = (float)(mouseX+350) / 1000 + objectsXPosition[i];
+            objectsYOffset[i] = (float)(mouseY+350) / 1000 + objectsYPosition[i];
         }
+        portalX *= -1;
+        portalY *= -1;
     }
 
     private static string ToStringDot(float objectXorY)
