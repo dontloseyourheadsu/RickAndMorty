@@ -1,5 +1,5 @@
 .portal-gun-button[b-73ll3hhves] {
-    cursor: pointer;
+    cursor: url("/images/portal-gun.svg"), auto !important;
     height: 50px;
     width: 140px;
     background-color: #000000;
@@ -7,4 +7,8 @@
     border: 4px solid #BBBEC1;
     font-size: 1.15em;
     font-family: 'Digital Numbers', sans-serif;
+}
+
+.portal-gun-button:hover[b-73ll3hhves] {
+    cursor: url("/images/portal-gun.svg"), auto !important;
 }

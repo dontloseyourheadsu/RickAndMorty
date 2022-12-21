@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "WebAppRickAndMorty.dll": "sha256-0PLjvx8ya2ZGKXn5s7CGmKvZV0Xys3no\/gecIUr\/bSo="
+      "WebAppRickAndMorty.dll": "sha256-OxHbWkoN8oSweuIXXX348aQ6ZSFSFS+x8vkKv+QnLhk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WebAppRickAndMorty.pdb": "sha256-DVw61l51B9LU+rv2YdGDHXa9BmOri4iCROpOAEKqkTQ="
+      "WebAppRickAndMorty.pdb": "sha256-QS0z0zuWIiVCk2CRE9GmvW2ypRsd1x0jP3JAgEyK8TA="
     },
     "runtime": {
       "dotnet.7.0.0.amub20uvka.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

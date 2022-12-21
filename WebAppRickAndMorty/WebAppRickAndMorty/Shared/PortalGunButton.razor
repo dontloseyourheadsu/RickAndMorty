@@ -1,8 +1,27 @@
-<button class="portal-gun-button">
+@inject NavigationManager NavigationManager
+
+<button class="portal-gun-button" @onclick="Teleport">
     @Text
 </button>
 
 @code {
     [Parameter]
-    public string Text { get; set; }
+    public string? Text { get; set; }
+    [Parameter]
+    public string? Destination { get; set; }
+    [Parameter]
+    public bool ActivePortal { get; set; }
+    
+    public PortalGunButton()
+    {
+        ActivePortal = true;
+    }
+    
+    private void Teleport()
+    {
+        if (ActivePortal)
+        {
+            NavigationManager.NavigateTo($"/{Destination}");
+        }
+    }
 }
