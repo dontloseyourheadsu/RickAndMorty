@@ -1,9 +1,8 @@
 ﻿@page "/"
-@using System.Security.Cryptography.X509Certificates
 
 <PageTitle>Index</PageTitle>
 
-<div class="overflow-hidden space-background main-page d-flex justify-space-around" @onmousemove="@GetMousePosition">
+<div class="overflow-hidden space-background d-flex justify-space-around" @onmousemove="@GetMousePosition">
     <div class="portal-section position-relative">
         <img style="@($"top: {ToStringDot(portalY)}em; left: {ToStringDot(portalX)}em")" class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[0])}em; top: {ToStringDot(objectsYOffset[0])}em; ")" class="position-absolute rick" src="images/portal-gun-rick.svg" alt="drunk rick"/>
@@ -16,8 +15,11 @@
         <img src="images/ufo.svg" alt="ufo" class="position-absolute ufo"/>
         <img src="images/rick-and-morty-logo.gif" alt="rick and morty logo" class="logo"/>
         <PortalGunButton Text="C-137"/>
-        <p style="color: white">@mouseX.ToString() @mouseY.ToString()</p>
     </div>
+    @for(int i = 0, j = 1; i < starsX.Length; i++, j = ((j % 3) + 1))
+    {
+        <div style="@($"left:{starsX[i].ToString()}px; animation-delay: {starsDelay[i].ToString()}s;")" class="@($"star star{j}")"></div>
+    }
 </div>
 
 @code
@@ -26,6 +28,7 @@
     private double mouseY;
     private float[] objectsXOffset, objectsYOffset, 
     objectsXPosition, objectsYPosition;
+    private int[] starsX, starsDelay;
     private float portalX, portalY;
 
     public Index()
@@ -44,6 +47,14 @@
         {
             7, 17, 12, 17, 10
         };
+        starsX = new int[100];
+        starsDelay = new int[100];
+        var random = new Random();
+        for(var i = 0; i < starsX.Length; i++)
+        {
+            starsX[i] = random.Next(-100, 1800);
+            starsDelay[i] = random.Next(0, 20);
+        }
         portalX = 10;
         portalY = 10;
         MoveElements();
