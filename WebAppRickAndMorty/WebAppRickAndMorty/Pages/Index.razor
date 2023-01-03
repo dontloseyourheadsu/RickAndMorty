@@ -4,7 +4,7 @@
 
 <div class="overflow-hidden space-background d-flex justify-space-around" @onmousemove="@GetMousePosition">
     <div class="portal-section position-relative">
-        <img style="@($"top: {ToStringDot(portalY)}em; left: {ToStringDot(portalX)}em")" class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
+        <img style="@($"top: {ToStringDot(portalY)}em; left: {ToStringDot(portalX)}em; height: {portalHeight}px")" class="position-absolute portal" src="images/green-portal.gif" alt="green portal animation"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[0])}em; top: {ToStringDot(objectsYOffset[0])}em; ")" class="position-absolute rick" src="images/portal-gun-rick.svg" alt="drunk rick"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[1])}em; top: {ToStringDot(objectsYOffset[1])}em; ")" class="position-absolute morty" src="images/main-page-morty.svg" alt="scared morty"/>
         <img style="@($"left: {ToStringDot(objectsXOffset[2])}em; top: {ToStringDot(objectsYOffset[2])}em; ")" class="position-absolute helmet" src="images/intelligence-helmet.svg" alt="intelligence helmet"/>
@@ -13,8 +13,8 @@
     </div>
     <div class="title position-relative d-flex flex-column justify-center align-items-center">
         <img src="images/ufo.svg" alt="ufo" class="position-absolute ufo"/>
-        <img src="images/rick-and-morty-logo.gif" alt="rick and morty logo" class="logo"/>
-        <PortalGunButton Text="C-137"/>
+        <img src="images/rick-and-morty-logo.png" alt="rick and morty logo" class="logo"/>
+        <PortalGunButton Text="C-137" Destination="multiverse"/>
     </div>
     @for(int i = 0, j = 1; i < starsX.Length; i++, j = ((j % 3) + 1))
     {
@@ -24,8 +24,8 @@
 
 @code
 {
-    private double mouseX;
-    private double mouseY;
+    private double mouseX, mouseY;
+    private int portalHeight;
     private float[] objectsXOffset, objectsYOffset, 
     objectsXPosition, objectsYPosition;
     private int[] starsX, starsDelay;
@@ -49,11 +49,12 @@
         };
         starsX = new int[100];
         starsDelay = new int[100];
+        portalHeight = 500;
         var random = new Random();
         for(var i = 0; i < starsX.Length; i++)
         {
             starsX[i] = random.Next(-100, 1800);
-            starsDelay[i] = random.Next(0, 20);
+            starsDelay[i] = random.Next(0, 10);
         }
         portalX = 10;
         portalY = 10;
@@ -73,8 +74,8 @@
         portalY = (float)((mouseY) / 800) - 1;
         for(var i = 0; i < objectsXOffset.Length; i++)
         {
-            objectsXOffset[i] = (float)(mouseX+350) / 1000 + objectsXPosition[i];
-            objectsYOffset[i] = (float)(mouseY+350) / 1000 + objectsYPosition[i];
+            objectsXOffset[i] = (float)(mouseX+350) / 700 + objectsXPosition[i];
+            objectsYOffset[i] = (float)(mouseY+350) / 700 + objectsYPosition[i];
         }
         portalX *= -1;
         portalY *= -1;

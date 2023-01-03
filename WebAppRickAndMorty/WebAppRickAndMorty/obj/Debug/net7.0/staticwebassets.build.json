@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nM2fe68XZ7vzqaDjmFzqYh4v+c7uZeh6l5s4/vdk6H0=",
+  "Hash": "x359KOKGZtpEXt+Nzu1201uThEGyTuil1ESw8U3iVhs=",
   "Source": "WebAppRickAndMorty",
   "BasePath": "/",
   "Mode": "Root",
@@ -7021,6 +7021,23 @@
       "OriginalItemSpec": "wwwroot\\images\\mr-meeseeks-box.svg"
     },
     {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\multiverse.svg",
+      "SourceId": "WebAppRickAndMorty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/multiverse.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\multiverse.svg"
+    },
+    {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\plumbus.svg",
       "SourceId": "WebAppRickAndMorty",
       "SourceType": "Discovered",
@@ -7087,6 +7104,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\rick-and-morty-logo.gif"
+    },
+    {
+      "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\rick-and-morty-logo.png",
+      "SourceId": "WebAppRickAndMorty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/rick-and-morty-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rick-and-morty-logo.png"
     },
     {
       "Identity": "C:\\Users\\yisus\\Documents\\GitHub\\RickAndMorty\\WebAppRickAndMorty\\WebAppRickAndMorty\\wwwroot\\images\\space-background.svg",

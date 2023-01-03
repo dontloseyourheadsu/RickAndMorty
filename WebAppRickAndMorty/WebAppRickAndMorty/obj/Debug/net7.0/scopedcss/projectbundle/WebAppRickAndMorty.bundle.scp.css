@@ -68,7 +68,15 @@
 }
 
 .logo[b-iz57bk0m9g] {
+    min-width: 70%;
+    max-width: 80%;
     margin: 0 0 3em 0;
+}
+/* /Pages/Multiverse.razor.rz.scp.css */
+.multiverse[b-b4i5x1q215] {
+    height: 100%;
+    background: #000 url("/images/multiverse.svg") no-repeat center center;
+    background-size: cover;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 /* /Shared/PortalGunButton.razor.rz.scp.css */
@@ -85,4 +93,20 @@
 
 .portal-gun-button:hover[b-73ll3hhves] {
     cursor: url("/images/portal-gun.svg"), auto !important;
+}
+
+.green-portal[b-73ll3hhves] {
+    top: -0px;
+    left: -0px;
+    height: 0;
+    width: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.active-portal[b-73ll3hhves] {
+    top: -80px;
+    left: -40px;
+    height: 200px;
+    width: 200px;
+    transition: 0.5s ease-in-out;
 }

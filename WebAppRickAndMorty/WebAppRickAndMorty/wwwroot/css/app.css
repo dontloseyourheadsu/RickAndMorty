@@ -6,8 +6,12 @@ html, body, #app, main, .space-background {
     height: 100%;
 }
 
+main {
+    overflow: hidden;
+}
+
 .space-background {
-    background: radial-gradient(circle at left, #496354 8%, #000 25%);
+    background: radial-gradient(ellipse at center bottom, rgb(35,35,35) 0%, black 100%);
     position: relative;
     z-index: 0;
 }

@@ -1,6 +1,7 @@
 @inject NavigationManager NavigationManager
 
-<button class="portal-gun-button" @onclick="Teleport">
+<button class="position-relative portal-gun-button" @onclick="@ActivatePortal">
+    <img class="@($"position-absolute green-portal {activePortalClass}")" src="images/green-portal.gif" alt="green portal"/>
     @Text
 </button>
 
@@ -9,19 +10,17 @@
     public string? Text { get; set; }
     [Parameter]
     public string? Destination { get; set; }
-    [Parameter]
-    public bool ActivePortal { get; set; }
-    
-    public PortalGunButton()
+    private string? activePortalClass = null;
+
+    private async Task ActivatePortal()
     {
-        ActivePortal = true;
+        activePortalClass = "active-portal";
+        await Task.Delay(5000);
+        Teleport();
     }
-    
+
     private void Teleport()
     {
-        if (ActivePortal)
-        {
-            NavigationManager.NavigateTo($"/{Destination}");
-        }
+        NavigationManager.NavigateTo($"/{Destination}");
     }
 }
