@@ -2,6 +2,11 @@
     z-index: 1;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/DigitalNumbers-Regular.ttf");
+}
+
 html, body, #app, main, .space-background {
     height: 100%;
 }
