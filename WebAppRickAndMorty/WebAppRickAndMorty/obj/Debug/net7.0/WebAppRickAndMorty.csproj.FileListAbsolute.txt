@@ -1657,3 +1657,4 @@ C:\Users\yisus\Documents\GitHub\RickAndMorty\WebAppRickAndMorty\WebAppRickAndMor
 C:\Users\yisus\Documents\GitHub\RickAndMorty\WebAppRickAndMorty\WebAppRickAndMorty\obj\Debug\net7.0\WebAppRickAndMorty.pdb
 C:\Users\yisus\Documents\GitHub\RickAndMorty\WebAppRickAndMorty\WebAppRickAndMorty\obj\Debug\net7.0\ref\WebAppRickAndMorty.dll
 C:\Users\yisus\Documents\GitHub\RickAndMorty\WebAppRickAndMorty\WebAppRickAndMorty\obj\Debug\net7.0\scopedcss\Pages\Multiverse.razor.rz.scp.css
+C:\Users\yisus\Documents\GitHub\RickAndMorty\WebAppRickAndMorty\WebAppRickAndMorty\obj\Debug\net7.0\scopedcss\Pages\CharacterInfo.razor.rz.scp.css
